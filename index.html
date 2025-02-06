@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/hamburguer.png" >
+</head>
+
+<body>
+
+    <!--------------------------------------------- header start --------------------------------------------->
+    <header>
+        <a href="" class="logo">Foods</a>
+        <div class="bx bx-menu active" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!--------------------------------------------- header End --------------------------------------------->
+
+    <!--------------------------------------------- home Start --------------------------------------------->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Savor Every Bite</h1>
+            <h2>Every Meal, <br> A New Adventure</h2>
+            <a href="#menu" class="btn"> Today's Menu</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/burger combo.png" alt="">
+        </div>
+    </section>
+    <!--------------------------------------------- home End --------------------------------------------->
+
+
+    <!--------------------------------------------- about Start --------------------------------------------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/Gyros Vector.png" alt="">
+        </div>
+
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>Where Passion <br> Meets Flavor</h2>
+            <p>At our restaurant, we believe that food is more than just a meal—it's an experience. 
+                We craft every dish with fresh, high-quality ingredients, bringing flavors that tell a story. 
+                Whether you're here for a quick bite or a full-course feast, we promise an unforgettable culinary journey.</p>
+            <button id="openHistoryModal" class="btn">Discover Our Story</button>
+        </div>
+    </section>
+    <!--------------------------------------------- about End --------------------------------------------->
+
+    <!--------------------------------------------- History Modal Start --------------------------------------------->
+    <div id="historyModal" class="modal-history">
+        <div class="modal-history-content">
+            <span class="close-history">&times;</span>
+            <h2>Our Journey Since 1995</h2>
+            <p>Founded in 1995, Foods started as a small family-owned restaurant with a passion for delivering the best flavors. Over the years, we have grown into a beloved brand, serving thousands of happy customers. Our commitment to quality and customer satisfaction has been the key to our success.</p>
+        </div>
+    </div>
+<!--------------------------------------------- History Modal End --------------------------------------------->
+
+    <!--------------------------------------------- menu Start --------------------------------------------->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Food menu</span>
+            <h2>Fresh taste and great price</h2>
+        </div>
+    
+
+        <div class="navigation-buttons">
+            <button class="prev-btn">◀ Back</button>
+            <button class="next-btn">Next <span>▶</span></button>
+        </div>
+    
+        <!-- Container do carrossel -->
+        <div class="wrapper">
+            <div class="menu-container">
+                <!-- Item 1 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/chickenburguer.jpg" alt="Classic Chicken Burger">
+                    </div>
+                    <h2>Classic Chicken Burger</h2>
+                    <h3>Juicy grilled chicken with fresh veggies</h3>
+                    <span>$11.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+    
+                <!-- Item 2 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/margaritapizza2.jpg" alt="Margarita Pizza">
+                    </div>
+                    <h2>Margarita Pizza</h2>
+                    <h3>Classic pizza topped with fresh mozzarella, basil, and tomato</h3>
+                    <span>$15.50</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+    
+                <!-- Item 3 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/creamyalfredo.jpg" alt="Creamy Alfredo Pasta">
+                    </div>
+                    <h2>Creamy Alfredo Pasta</h2>
+                    <h3>Rich & creamy sauce with parmesan</h3>
+                    <span>$13.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+    
+                <!-- Item 4 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/salmonsushi.jpg" alt="Salmon Sushi Rolls">
+                    </div>
+                    <h2>Salmon Sushi Rolls</h2>
+                    <h3>Fresh salmon, avocado & rice perfection</h3>
+                    <span>$18.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+    
+                <!-- Item 5 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/chocolatelava.jpg" alt="Chocolate Lava Cake">
+                    </div>
+                    <h2>Chocolate Lava Cake</h2>
+                    <h3>Warm, gooey & irresistible dessert</h3>
+                    <span>$9.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/cheeseburguer.jpg" alt="Cheeseburger">
+                    </div>
+                    <h2>Cheeseburger</h2>
+                    <h3>Beef patty with melted cheese and pickles</h3>
+                    <span>$10.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/spicyramen.jpg" alt="Spicy Ramen">
+                    </div>
+                    <h2>Spicy Ramen</h2>
+                    <h3>Hot and savory broth with noodles</h3>
+                    <span>$12.50</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/bananasplit.jpeg" alt="Banana Split">
+                    </div>
+                    <h2>Banana Split</h2>
+                    <h3>Banana topped with ice cream, chocolate, and whipped cream</h3>
+                    <span>$8.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/vanillacream.jpg" alt="Vanilla Ice Cream">
+                    </div>
+                    <h2>Vanilla Ice Cream</h2>
+                    <h3>Rich and creamy with a smooth texture</h3>
+                    <span>$5.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 10 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/onionrings.jpg" alt="Onion Rings">
+                    </div>
+                    <h2>Onion Rings</h2>
+                    <h3>Crispy, golden fried onion rings served with dipping sauce</h3>
+                    <span>$6.50</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 11 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/breakfastsandwich.jpg" alt="Breakfast Sandwich">
+                    </div>
+                    <h2>Breakfast Sandwich</h2>
+                    <h3>Egg, bacon, and cheese on toasted bread</h3>
+                    <span>$8.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 12 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/beeftacos.jpg" alt="Beef Tacos">
+                    </div>
+                    <h2>Beef Tacos</h2>
+                    <h3>Seasoned beef, lettuce, and cheese in soft shells</h3>
+                    <span>$6.50</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 13 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/frenchfries.jpg" alt="French Fries">
+                    </div>
+                    <h2>French Fries</h2>
+                    <h3>Crispy golden fries, lightly salted</h3>
+                    <span>$15.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 14 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/pancakes.jpg" alt="Pancakes">
+                    </div>
+                    <h2>Pancakes</h2>
+                    <h3>Fluffy pancakes with maple syrup</h3>
+                    <span>$7.50</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <!-- Item 15 -->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/milkshake.jpg" alt="Milk Shake">
+                    </div>
+                    <h2>Milk Shake</h2>
+                    <h3>Delicious creamy milkshake with strawberry flavor, vanilla or chocolate</h3>
+                    <span>$6.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+        </div>
+    </div>
+
+    </section>
+    
+
+    <!--------------------------------------------- menu End --------------------------------------------->
+    
+    <!---------------------------------------------  service Start --------------------------------------------->
+    <section class="service" id="service">
+        <div class="heading">
+            <span>Service</span>
+            <h2>We Offer the Best Experience for You</h2>
+        </div>
+
+        <div class="service-container">
+            <div class="s-box">
+                <img src="assets/entrega.png" alt="Fast Delivery">
+                <h3>Fast Delivery</h3>
+                <p>Order your favorite meal and receive it at your doorstep in just minutes!</p>
+            </div>
+
+            <div class="s-box">
+                <img src="assets/trabalhando.png" alt="24/7 Service">
+                <h3>24/7 Service</h3>
+                <p>We are available anytime, day or night, to satisfy your hunger!</p>
+            </div>
+
+            <div class="s-box">
+                <img src="assets/pedido.png" alt="Online Ordering">
+                <h3>Online Ordering</h3>
+                <p>Place your order quickly and easily through our website or app</p>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------- service End --------------------------------------------->
+
+    <!--------------------------------------------- content Start --------------------------------------------->
+    <section class="cta" id="cta">
+        <h2>"Have a question? <br> Let's talk!" ✉️</h2>
+        <a href="#" id='openModal' class="btn"> Let's talk <i class='bx bx-mail-send'></i></a>
+    </section>
+
+    <!--------------------------------------------- content End --------------------------------------------->
+
+    <!--------------------------------------------- Modal Form Start --------------------------------------------->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <!--------------------------------------------- Modal Form End --------------------------------------------->
+
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="col">
+                    <h4><i class="bx bx-food-menu"></i> Menu Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4><i class="bx bx-laptop"></i> Our Service</h4>
+                    <ul>
+                        <li><a href="#">Menu Design</a></li>
+                        <li><a href="#">Online Ordering System</a></li>
+                        <li><a href="#">Social Media Marketing</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Food Safety Consulting</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <ul>
+                        <h4><i class="bx bx-info-circle"></i> Information</h4>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery & Takeout Information</a></li>
+                        <li><a href="#">Privacy & Cookie Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4><i class="bx bx-message"></i> Contact Us</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://x.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
