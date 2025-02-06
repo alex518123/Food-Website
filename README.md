@@ -6,10 +6,10 @@ Este projeto é um website interativo para um restaurante de fast food, desenvol
 
 ## 🎯 Principais Funcionalidades 🔽
 
-- ✅ **Menu responsivo e interativo** 🍔 para facilitar a navegação.  
-- ✅ **Carrossel deslizante** 🎠 com rolagem automática e navegação manual.  
-- ✅ **Modais dinâmicos** 💬 para exibição da história da empresa e formulário de contato.  
-- ✅ **Design responsivo** 📱 garantindo compatibilidade com diferentes dispositivos.  
+- ✅ **Menu responsivo e interativo** para facilitar a navegação.  
+- ✅ **Carrossel deslizante** com rolagem automática e navegação manual.  
+- ✅ **Modais dinâmicos** para exibição da história da empresa e formulário de contato.  
+- ✅ **Design responsivo** garantindo compatibilidade com diferentes dispositivos.  
 
 - [Acesse o projeto finalizado, online](https://alex518123.github.io/Food-Website)
 
@@ -62,7 +62,8 @@ git clone https://github.com/alex518123/Food-Website.git
 
 ---
 
-🤝 Contribuição
+## 🤝 Contribuição
+
 Contribuições são bem-vindas! Para contribuir:
 
 1️⃣ Faça um fork do projeto 🍴
@@ -72,7 +73,7 @@ Contribuições são bem-vindas! Para contribuir:
 
 ---
 
-📬 Contato
+## 📬 Contato
 
 📧 **E-mail:** alexresende675@gmail.com
 🐙 **GitHub:** [alex518123](https://github.com/alex518123)
