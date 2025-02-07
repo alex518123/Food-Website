@@ -14,15 +14,6 @@ O projeto utiliza manipulação do DOM, animações CSS e boas práticas de dese
 
 ---
 
-## 🚀 Funcionalidades
-
-- **Menu responsivo e interativo** para facilitar a navegação.
-- **Carrossel automático e manual** para destacar pratos populares.
-- **Modais dinâmicos** para informações adicionais e contato.
-- **Design responsivo** garantindo compatibilidade com diferentes dispositivos.
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 As principais tecnologias aplicadas neste projeto foram:
@@ -47,11 +38,8 @@ O projeto foi desenvolvido para aprimorar habilidades em HTML, CSS e JavaScript,
 
 ## 📂 Estrutura do Projeto
 
-Food-Website/
-├── index.html
-├── styles.css
-├── script.js
-└── assets/
+Food-Website/ ├── index.html ├── styles.css ├── script.js └── assets/
+
 ---
 
 ## 📦 Como Usar  
@@ -64,6 +52,7 @@ git clone https://github.com/alex518123/Food-Website.git
 3️⃣ Divirta-se explorando as funcionalidades! 🚀
 
 ---
+
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Para contribuir:
