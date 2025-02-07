@@ -62,15 +62,18 @@ git clone https://github.com/alex518123/Food-Website.git
 2️⃣ Abra o arquivo index.html no navegador.
 
 3️⃣ Divirta-se explorando as funcionalidades! 🚀
----
 
+---
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Para contribuir:
 
 1️⃣ Faça um fork do projeto 🍴
+
 2️⃣ Crie uma nova branch: git checkout -b minha-feature
+
 3️⃣ Faça suas alterações e commit: git commit -m "Minha melhoria"
+
 4️⃣ Envie um pull request 📩
 
 ---
@@ -78,6 +81,7 @@ Contribuições são bem-vindas! Para contribuir:
 ## 📬 Contato
 
 📧 **E-mail:** alexresende675@gmail.com
+
 🐙 **GitHub:** [alex518123](https://github.com/alex518123)
 
 ---
