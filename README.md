@@ -38,7 +38,11 @@ O projeto foi desenvolvido para aprimorar habilidades em HTML, CSS e JavaScript,
 
 ## 📂 Estrutura do Projeto
 
-Food-Website/ ├── index.html ├── styles.css ├── script.js └── assets/
+/Food-Website
+├── index.html
+├── styles.css
+├── script.js
+├── assets
 
 ---
 
