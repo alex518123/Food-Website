@@ -1,65 +1,67 @@
-# 🎬 Projeto: Food Website
+# 🎬 Food Website
 
-## ✨ Descrição  
+## 📌 Descrição
 
-Este projeto é um website interativo para um restaurante de fast food, desenvolvido com foco em usabilidade, interatividade e design responsivo. A interface inclui um menu dinâmico, um carrossel de destaque para pratos populares e modais informativos que apresentam a história da empresa e um formulário de contato. Para garantir uma experiência fluída e envolvente, foram aplicadas técnicas de manipulação do DOM, animações CSS e estruturação semântica do código, além da adoção de boas práticas de desenvolvimento frontend para manter um código limpo, organizado e escalável.
+Este projeto é um website interativo para um restaurante de fast food, desenvolvido com foco em usabilidade, interatividade e design responsivo. A interface inclui:
 
-## 🎯 Principais Funcionalidades 🔽
+- Um **menu dinâmico** para navegação intuitiva.
+- Um **carrossel de pratos populares** com rolagem automática e manual.
+- **Modais informativos**, incluindo a história da empresa e um formulário de contato.
 
-- ✅ **Menu responsivo e interativo** para facilitar a navegação.  
-- ✅ **Carrossel deslizante** com rolagem automática e navegação manual.  
-- ✅ **Modais dinâmicos** para exibição da história da empresa e formulário de contato.  
-- ✅ **Design responsivo** garantindo compatibilidade com diferentes dispositivos.  
+O projeto utiliza manipulação do DOM, animações CSS e boas práticas de desenvolvimento frontend para garantir um código limpo, organizado e escalável.
 
-- [Acesse o projeto finalizado, online](https://alex518123.github.io/Food-Website)
+🔗 **[Acesse o projeto online](https://alex518123.github.io/Food-Website)**
 
 ---
 
-## 🛠️ Tecnologias Utilizadas  
-As principais tecnologias aplicadas neste projeto foram:  
+## 🚀 Funcionalidades
 
-- **HTML5** 📄 para a estrutura da página  
-- **CSS3** 🎨 para estilização e responsividade  
-- **JavaScript (ES6+)** ⚡ para interatividade  
+- **Menu responsivo e interativo** para facilitar a navegação.
+- **Carrossel automático e manual** para destacar pratos populares.
+- **Modais dinâmicos** para informações adicionais e contato.
+- **Design responsivo** garantindo compatibilidade com diferentes dispositivos.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+As principais tecnologias aplicadas neste projeto foram:
+
+- **HTML5** 📄 - Estrutura da página
+- **CSS3** 🎨 - Estilização e responsividade
+- **JavaScript (ES6+)** ⚡ - Interatividade
 
 ---
 
 ## 🎯 Objetivo
-Este projeto foi desenvolvido para fortalecer minhas habilidades em HTML, CSS e JavaScript, garantindo um código mais limpo, modular e de fácil manutenção.
+
+O projeto foi desenvolvido para aprimorar habilidades em HTML, CSS e JavaScript, garantindo um código mais limpo, modular e de fácil manutenção.
 
 ---
 
-## 📸 Capturas de Tela  
-![Preview do projeto](.github/preview.png)  
+## 📸 Captura de Tela
+
+![Preview do projeto](.github/preview.png)
 
 ---
 
-## 🚀 Funcionalidades  
-🔹 **Menu interativo:** Abre e fecha ao clicar no ícone.  
-🔹 **Carrossel automático:** Move as imagens a cada 4 segundos e permite controle manual.  
-🔹 **Modais dinâmicos:** Abrem e fecham ao clicar nos botões de ação.  
-🔹 **Navegação fluída:** Rolagem suave e responsiva para melhor experiência do usuário.  
+## 📂 Estrutura do Projeto
 
----
-
-## 📂 Estrutura do Projeto  
-
-📁 Food-Website
-├── 📄 index.html
-├── 🎨 styles.css
-├── ⚡ script.js
-└── 📁 assets/
+Food-Website/
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
 ---
 
 ## 📦 Como Usar  
 1️⃣ Clone o repositório:  
-```sh
+
 git clone https://github.com/alex518123/Food-Website.git
 
 2️⃣ Abra o arquivo index.html no navegador.
 
 3️⃣ Divirta-se explorando as funcionalidades! 🚀
-
 ---
 
 ## 🤝 Contribuição
